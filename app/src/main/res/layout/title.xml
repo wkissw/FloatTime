@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="#5ec96e"
+    android:layout_height="51dp"
+    android:weightSum="1">
+
+   <TextView
+       android:textSize="26sp"
+       android:gravity="center"
+       android:textColor="#CCffffff"
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="0.10"
+       android:text="@string/fuhao"
+       android:id="@+id/TvBack" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textColor="#CCffffff"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_weight="0.80"
+        android:text="悬浮时间"
+        android:id="@+id/TextViewTile" />
+
+    <TextView
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="#CCffffff"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.10"
+        android:text="@string/fuhao2"
+        android:id="@+id/Tvgo" />
+
+
+</LinearLayout>

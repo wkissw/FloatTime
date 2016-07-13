@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">悬浮时间</string>
+    <string name="fuhao">&#60;</string>
+    <string name="fuhao2">&#62;</string>
+    <string name="shuoming">使用说明：\n
+1.点击创建悬浮框显示悬浮时间\n
+2.点击悬浮文字，系统时间将会增加一天。时间增加，可以用于提前领取部分单机游戏的每日签到。\n
+3.时间恢复：请到时间设置处勾选自动确定时间，即可恢复正常时间\n</string>
+</resources>

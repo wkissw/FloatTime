@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wkissw.floatwindow.MainActivity">
+
+<com.example.wkissw.floatwindow.TitleLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/view">
+
+</com.example.wkissw.floatwindow.TitleLayout>
+
+
+    <Button
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ccffffff"
+        android:textSize="14sp"
+        android:text="显示悬浮窗"
+        android:id="@+id/buttonShow"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:textColor="#ccffffff"
+        android:background="@drawable/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试"
+        android:id="@+id/buttonClose"
+        android:layout_alignTop="@+id/buttonShow"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/shuoming"
+        android:id="@+id/textView"
+        android:layout_below="@+id/view"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
